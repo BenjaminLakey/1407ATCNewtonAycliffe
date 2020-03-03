@@ -27,4 +27,13 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-} 
+}
+
+#footer {
+  position: fixed;
+  left: -12px;
+  bottom: 9px;
+  width: 100%;
+  color: #000;
+  text-align: right;
+}
