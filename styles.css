@@ -38,19 +38,4 @@ li a:hover {
   text-align: right;
 }
 
-.container {
-  width: 100%;
-  border: 1px solid #000;
-  border-radius: 5px;
-  margin-top: 20px;
-  float: none;
-  position: relative;
-}
 
-#homePageDes {
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 58px auto;
-  font-size: 20px;
-}
