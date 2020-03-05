@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h1 {
 	font-size: 50px;
 	color: #5D8AA8;
@@ -38,4 +42,13 @@ li a:hover {
   text-align: right;
 }
 
+.container {
+  width: 100%;
+}
 
+#homePageDes {
+  width: 80%;
+  border: 1px solid #000;
+  padding: 28px;
+  display: inline-block;
+}
