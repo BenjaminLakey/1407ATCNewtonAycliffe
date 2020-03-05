@@ -58,6 +58,7 @@ li a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #000;
 }
 
 li:hover {
