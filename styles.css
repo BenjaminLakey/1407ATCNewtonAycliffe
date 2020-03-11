@@ -128,7 +128,7 @@ h3 {
   margin: 0 auto;
   width: 70%;
   display: inline-block;
-  padding: 20px 15%;
+  padding: 0px 15%;
 }
 
 .infoBoxesLeft {
@@ -159,6 +159,7 @@ h3 {
 #coMessageContainer {
   width: 70%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 #coMessage {
@@ -197,6 +198,7 @@ h3 {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 50px;
 }
 
 
