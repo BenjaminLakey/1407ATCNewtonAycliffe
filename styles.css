@@ -181,11 +181,26 @@ h3 {
 }
 
 #footer {
-  float: right;
-  right: 1%;
-  bottom: 5px;
-  position: relative;
   font-family: 'Caveat', cursive;
+  width: 100%;
+  float: right;
+  background-color: #1E2330;
+  color: #fff;
+}
+
+#footerContact {
+  background-color: #1E2330;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  float: left;
+}
+
+#signOff {
+  float: right;
+  position: relative;
+  bottom: -14px;
+  right: 1%;
 }
 
 /* Slider Styling */
