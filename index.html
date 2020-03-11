@@ -3,7 +3,9 @@
 <head>
 	<title>1407 Newton Aycliffe Squadron</title>
 	<link rel="stylesheet" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
+	
 </head>
 <body class="bodyPAG00001">
 
@@ -11,12 +13,12 @@
 <!----Nav Bar---->
 
 	<div id="navBar">
-		<a href="https://www.raf.mod.uk/"><img id="atcLogo" src="./images/new-aco-logo.png" alt="atcLogo"></a>
+		<a href="https://www.raf.mod.uk/" target="blank"><img id="atcLogo" src="./images/new-aco-logo.png" alt="atcLogo"></a>
 			<ul>
 	  			<li class="navBar"><a href="index.html">Home</a></li>
-	  			<li class="navBar"><a href="about.html">What we do</a></li>
-	  			<li class="navBar"><a href="news.html">Recruitment</a></li>
-	  			<li class="navBar"><a href="contact.html">Contact</a></li>
+	  			<li class="navBar"><a href="">What we do</a></li>
+	  			<li class="navBar"><a href="">Recruitment</a></li>
+	  			<li class="navBar"><a href="">Contact</a></li>
 			</ul>
 	</div>
 
@@ -53,12 +55,61 @@
 		</div>
 	</div>
 
+<!----Slide Show---->
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<div class="numbertext">1 / 3</div>
+		<img src="./images/dofe_orig.jpg" style="width: 100%">
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 3</div>
+		<img src="./images/sports_orig.jpg" style="width: 100%">
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 3</div>
+		<img src="./images/visit_orig.jpg" style="width: 100%">
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div style="text-align: center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div id="coMessageContainer">
+<h2>Message from the Commanding Officer</h2>
+<img id="flt-lt-scott" src="./images/flt-lt-scott.jpg" />
+<p id="coMessage">
+	Welcome to 1407 (Newton Aycliffe) Squadron.<br/><br/>
+
+	We are a voluntary youth organisation based on and supported by the Royal Air Force, offering a huge range of activities and opportunities to young people aged 12-20 years.<br/><br/>
+ 
+	Our cadets have the chance to get involved in a huge range of exciting activities such as flying, sports, target shooting, adventure training to name but a few – and with the opportunity to earn BTECs and Duke of Edinburgh’s Awards in recognition of their achievements.<br/><br/>
+ 
+	Our aims are to:<br/><br/>
+
+​	Promote and encourage a practical interest in aviation and the Royal Air Force among young people<br/><br/>
+
+	Provide training which will be useful in the Services and civilian life<br/><br/>
+
+	Encourage the spirit of adventure and develop qualities of leadership and good citizenship<br/><br/>
+ 
+	If you are in 13 -17 years old (or age 12 and in year 8) and you think you would enjoy doing a range of activities as flying, gliding, shooting, adventure training, as well as gaining a variety of new skills and qualifications, all whilst enjoying new experiences and meeting new people, then the Air Cadets is for you!
+</p>
+</div>
+
+<img id="ATCbanner" src="./images/atc-logo-banner.jpg" />
 
 </div>
 
 <!----Footer---->
 
+<div id="footer">Site built by Benjamin Lakey</div>
 
-
+<script src="customScript.js"></script>
 </body>
 </html>

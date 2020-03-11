@@ -21,6 +21,7 @@ h1 {
   background-color: #1E2330;
   padding: 70px;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #sqnCrest {
@@ -63,7 +64,7 @@ li {
 li a {
   display: block;
   padding: 10px 20px;
-  font-family: "Unite", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -149,3 +150,118 @@ h3 {
   letter-spacing: 0.02em;
   padding: 0 40px 0px 0px;
 }
+
+#flt-lt-scott {
+  float: right;
+  position: relative;
+}
+
+#coMessageContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#coMessage {
+  width: 66%;
+  text-align: left;
+  line-height: 30px !important;
+  font-size: 16px !important;
+  font-family: "Montserrat";
+  color: #818181;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+#ATCbanner {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+
+#footer {
+  float: right;
+  right: 1%;
+  bottom: 5px;
+  position: relative;
+  font-family: 'Caveat', cursive;
+}
+
+/* Slider Styling */
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4;}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
