@@ -205,6 +205,10 @@ h3 {
 
 /* Slider Styling */
 
+#slideshow-background {
+  background-color: #1E2330;
+}
+
 .mySlides {
   display: none;
 }
@@ -214,6 +218,7 @@ h3 {
   position: relative;
   margin: auto;
   margin-top: 50px;
+  padding-top: 20px;
 }
 
 
