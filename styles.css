@@ -11,6 +11,7 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   margin-bottom: 30px;
+  padding: 5px 0px;
 }
 
 h1 {
@@ -32,7 +33,10 @@ h1 {
 #navBar {
   text-align: center;
   font-size: 16px;
-  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 ul {
@@ -85,7 +89,15 @@ h2 {
   font-weight: 700;
   color: #000000;
   letter-spacing: 0px;
+}
 
+h3 {
+  font-size: 30px;
+  line-height: 21px !important;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 700;
+  color: #000;
 }
 
 #aboutCadets {
@@ -94,8 +106,8 @@ h2 {
   text-align: center;
   line-height: 30px;
   font-size: 16px;
-  font-family: "Montserrat" !important;
-  color: #818181 !important;
+  font-family: "Montserrat", sans-serif;
+  color: #818181;
   font-weight: 300;
   letter-spacing: 0.02em;
   margin-bottom: 50px;
@@ -104,4 +116,33 @@ h2 {
 #sqnGroupImg {
   display: block;
   margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.infoBoxes {
+  position: relative;
+  margin: 0 auto;
+  width: 68%;
+  display: inline-block;
+  padding: 20px 16%;
+}
+
+.infoBoxesLeft {
+  width: 50%;
+  float: left;
+}
+
+.infoBoxesRight {
+  width: 50%;
+  float: right;
+}
+
+.infoDesc {
+  color: rgb(51, 51, 51);
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  padding: 0 40px 0px 0px;
 }
