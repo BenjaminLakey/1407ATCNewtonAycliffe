@@ -32,7 +32,7 @@ h1 {
 }
 
 #navBar {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   position: sticky;
   top: 0;
@@ -76,6 +76,11 @@ li a {
 
 li:hover {
   color: #f4f4f4
+}
+
+#logoWrap {
+    display: inline-block;
+    width: auto;
 }
 
 
