@@ -3,10 +3,9 @@ body {
 }
 
 #atcLogo {
-  cursor: pointer;
   resize: none;
   display: block;
-  height: 70px;
+  height: auto;
   width: 104px;
   margin-top: 30px;
   margin-left: 30px;
