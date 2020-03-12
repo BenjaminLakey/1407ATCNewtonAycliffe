@@ -310,3 +310,28 @@ iframe {
   position: relative;
   top: -100px;
 }
+
+
+
+/* Recruitment Page */
+
+#smallWriting {
+  font-size: 18px;
+}
+
+.recruitContainer {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#cadetsText {
+  width: 50%;
+  float: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+#adultsText {
+  width: 50%;
+  float: right;
+  font-family: "Montserrat", sans-serif;
+}
