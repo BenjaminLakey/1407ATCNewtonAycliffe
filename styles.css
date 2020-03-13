@@ -394,3 +394,105 @@ iframe {
 
 /* Mobile Responsive */
 
+
+/* Index Page */
+
+@media only screen and (max-width: 1026px) {
+  ul {
+    display: none;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  #sqnCrest {
+    width: 18%;
+  }
+
+  #aboutCadets {
+    width: 75%;
+  }
+
+  #sqnGroupImg {
+    width: 76%;
+  }
+
+  #slideshow-background {
+    width: 76%;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .infoDesc {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  #coMessage {
+    font-size: 12px !important;
+  }
+
+  #ATCbanner {
+    width: 40%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  h1 {
+    font-size: 20px;
+    padding: 50px;
+  }
+
+  #container {
+    margin: 45px auto;
+  }
+
+  .infoBoxesLeft {
+    width: 100%;
+  }
+
+  .infoBoxesRight {
+    width: 100%;
+  }
+
+  #flt-lt-scott {
+    float: none;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+  }
+
+  #coMessage {
+    width: 100%;
+    line-height: 20px !important;
+  }
+
+}
+
+@media only screen and (max-width: 555px) {
+  #atcLogo {
+    width: 12%;
+  }
+
+  h1 {
+    padding: 30px;
+    font-size: 16px;
+  }
+
+  #footerContact {
+    font-size: 10px;
+  }
+
+  #signOff {
+    font-size: 10px;
+  }
+}
