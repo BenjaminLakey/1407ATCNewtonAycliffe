@@ -335,6 +335,9 @@ iframe {
   font-family: "Montserrat", sans-serif;
 }
 
+.recruitInfo {
+  display: inline-block;
+}
 
 /* About Page */
 
