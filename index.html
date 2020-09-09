@@ -108,10 +108,13 @@
 <script>
 	$j(document).ready(function(){
 		$j('.autoplay').slick({
-  			slidesToShow: 1,
-  			slidesToScroll: 1,
+    		dots: true,
+  			infinite: true,
+  			speed: 500,
+  			fade: true,
+  			cssEase: 'linear',
   			autoplay: true,
-  			autoplaySpeed: 2000,
+  			autoplaySpeed: 4000,
 		});
 	});
 </script>
