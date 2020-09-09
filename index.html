@@ -100,21 +100,20 @@
 	<div id="signOff">Site built by Benjamin Lakey</div>
 </div>
 
-<script src="customScript.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="slick.min.js"></script>
 
 <script>
-	$j(document).ready(function(){
-		$j('.autoplay').slick({
+	$(document).ready(function(){
+		$('.autoplay').slick({
     		dots: true,
   			infinite: true,
   			speed: 500,
   			fade: true,
   			cssEase: 'linear',
-  			autoplay: true,
-  			autoplaySpeed: 4000,
+  			// autoplay: true,
+  			// autoplaySpeed: 4000,
 		});
 	});
 </script>
