@@ -4,7 +4,9 @@
 	<title>1407 Newton Aycliffe Squadron</title>
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	
 </head>
 <body class="bodyPAG00001">
@@ -58,28 +60,22 @@
 	</div>
 
 <!----Slide Show---->
-<div id="slideshow-background">
-	<div class="slideshow-container">
-		<div class="mySlides fade">
-			<img src="./images/dofe_orig.jpg" class="slideshowImgs" style="width: 100%">
-		</div>
-		<div class="mySlides fade">
-			<img src="./images/sports_orig.jpg" class="slideshowImgs" style="width: 100%">
-		</div>
-		<div class="mySlides fade">
-			<img src="./images/visit_orig.jpg" class="slideshowImgs" style="width: 100%">
-		</div>
 
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-
-	<div style="text-align: center">
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-	</div>
+<div class="autoplay" role="toolbar">
+  <img src="./images/dofe_orig.jpg" />
+  <img src="./images/sports_orig.jpg" />
+  <img src="./images/visit_orig.jpg" />
 </div>
+
+<script>
+$('.autoplay').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+</script>
+
 
 <div id="coMessageContainer">
 <h2>Message from the Commanding Officer</h2>
@@ -114,5 +110,8 @@
 </div>
 
 <script src="customScript.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 </html>
