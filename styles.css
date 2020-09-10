@@ -39,7 +39,7 @@ h1 {
   z-index: 1;
 }
 
-ul {
+#navBar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -54,13 +54,13 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-li {
+#navBar li {
   position: relative;
   display: inline-block;
   margin: 5px 0;
 }
 
-li a {
+#navBar li a {
   display: block;
   padding: 10px 20px;
   font-family: "Montserrat", sans-serif;
@@ -73,7 +73,7 @@ li a {
   color: #000;
 }
 
-li:hover {
+#navBar li:hover {
   color: #f4f4f4
 }
 
@@ -81,6 +81,14 @@ li:hover {
 
 #container {
   margin: 75px auto;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  display: inline-block;
+  padding: 0px 15%;
 }
 
 h2 {
@@ -103,7 +111,6 @@ h3 {
 }
 
 #aboutCadets {
-  width: 50%;
   margin: 0 auto;
   text-align: center;
   line-height: 30px;
@@ -124,9 +131,7 @@ h3 {
 .infoBoxes {
   position: relative;
   margin: 0 auto;
-  width: 70%;
   display: inline-block;
-  padding: 0px 15%;
 }
 
 .infoBoxesLeft {
@@ -155,7 +160,6 @@ h3 {
 }
 
 #coMessageContainer {
-  width: 70%;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -203,83 +207,9 @@ h3 {
 
 /* Slider Styling */
 
-#slideshow-background {
-  background-color: #1E2330;
+.ATCSlider {
+  margin: 60px auto;
 }
-
-.mySlides {
-  display: none;
-}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top: 50px;
-  padding-top: 20px;
-}
-
-.slideshowImgs {
-	border-radius: 10px;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  background-color: #1E2330;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4;}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
 
 /* Contact Us Page */
 
