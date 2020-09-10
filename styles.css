@@ -271,6 +271,11 @@ iframe {
 
 /* About Page */
 
+#aboutSlider {
+  width: 80%;
+  margin: 40px auto;
+}
+
 #aboutContainer {
   width: 80%;
   margin: 80px auto;
@@ -305,7 +310,7 @@ iframe {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 0.02em;
-  padding: 0 40px 0px 0px;
+  padding: 40px;
 }
 
 #aboutFinalText {
@@ -313,7 +318,7 @@ iframe {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   width: 40%;
-  margin: 0 auto;
+  margin: 40px auto;
   color: #818181 !important;
   font-weight: 500;
 }

@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>1407 Newton Aycliffe Squadron</title>
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick-theme.css"/>
 	
 </head>
 <body class="bodyPAG00002">
@@ -24,13 +28,12 @@
 
 <!----Header---->
 
-<h1>What we do</h1>
+<h1>What We Do</h1>
 
 <!----Main Section---->
 
-<div id="aboutContainer">
-	<div id="aboutPart1">
-		<div id="drill" class="aboutPara">
+<div class="aboutSlider" id="aboutSlider">
+	<div id="drill" class="aboutPara">
 			<h3>Drill & Discipline</h3>
 				<p class="aboutText">
 					As a uniformed organisation that is part of the wider Royal Air Force. All cadets will be taught how to correctly wear uniform and how to conduct themselves on a parade. As well as teaching self discipline it gives every cadet the opportunity to be proud in being part of the UK's premier youth organisation.
@@ -50,9 +53,7 @@
 					Fancy Canoeing/Kayaking, Mountain biking, high ropes, walking, gorge walking or Climbing? These are only a few of many activities you get to take part in. All you need is a sense of adventure and a willingness to give it a go!
 				</p>
 		</div>
-	</div>
 
-	<div id="aboutPart2">
 		<div id="shooting" class="aboutPara">
 			<h3>Shooting</h3>
 				<p class="aboutText">
@@ -73,9 +74,7 @@
 					﻿To fit everything in that we offer. cadets get the oppertunity to go away to many different camps all over the world. From a weekends Fieldcraft training at Warcop to a week camp at RAF Cranwell or even a trip to Canada. ﻿
 				</p>
 		</div>
-	</div>
 
-	<div id="aboutPart3">
 		<div id="qualifications" class="aboutParaQual">
 			<h3>Qualifications</h3>
 				<p class="aboutText">
@@ -96,14 +95,14 @@
 					A huge part of 1407 Squadron is our participation in the DofE scheme. All cadets joining will get the chance to progress from Bronze right through to the Gold Award. Achieve this and you get to go to Buckingham Palace and be presented with your award from a member of the Royal Family. 
 				</p>
 		</div>
-	</div>
+</div>
+
 
 	<div>
 		<p id="aboutFinalText">
 			You will be amazed at what activites that the ATC will provide so why don't you join up today?!
 		</p>
 	</div>
-</div>
 
 
 <!----Footer---->
@@ -111,6 +110,24 @@
 	<div id="footerContact">Tel: 01325 318603 | Email: 1407@aircadets.org</div>
 	<div id="signOff">Site built by Benjamin Lakey</div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="slick.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$('.aboutSlider').slick({
+  			dots: true,
+  			infinite: true,
+  			speed: 500,
+  			fade: true,
+  			cssEase: 'linear',
+  			autoplay: true,
+  			autoplaySpeed: 3000
+		});
+	});
+</script>
 
 </body>
 </html>
