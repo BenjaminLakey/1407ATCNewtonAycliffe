@@ -18,6 +18,16 @@ h1 {
   color: #F8C91C;
   text-align: center;
   background-color: #1E2330;
+  padding: 55px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#airCadetsHeader {
+  font-size: 50px;
+  color: #F8C91C;
+  text-align: center;
+  background-color: #1E2330;
   padding: 16px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
