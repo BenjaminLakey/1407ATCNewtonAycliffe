@@ -18,9 +18,21 @@ h1 {
   color: #F8C91C;
   text-align: center;
   background-color: #1E2330;
-  padding: 70px;
+  padding: 16px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+}
+
+#airCadetsHeader::after {
+  background-color: #1E2330;
+  bottom: -2.5rem;
+  content: "";
+  display: block;
+  height: 3rem;
+  left: calc(50% - 1.5rem);
+  position: relative;
+  transform: rotate(45deg);
+  width: 3rem;
 }
 
 #sqnCrest {
